@@ -18,7 +18,7 @@ ESERCIZIO DB-HOTEL QUERIES
 
 	SELECT *
 	FROM `ospiti`
-	WHERE `date_of_birth` > NOW() - INTERVAL 20 YEAR;
+	WHERE `date_of_birth` < NOW() - INTERVAL 20 YEAR;
 
 
 - Seleziona tutti gli ospiti il cui nome inizia con la E
